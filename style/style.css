@@ -1,0 +1,408 @@
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    color: #053412;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 2px;
+    white-space: nowrap;
+}
+
+li a:hover {
+    color: #45965B;
+    background-color: #DEDEDE;
+    border-radius: 6px;
+}
+
+.logo {
+    white-space: nowrap;
+}
+
+.logo-text {
+    color: #45965B;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 20px;
+}
+
+.logo-text:hover {
+    color: #053412;
+}
+
+.header__language {
+    position: relative;
+}
+
+.down__menu-lang {
+    display: none;
+    position: absolute;
+    z-index: 20;
+}
+
+.header__language:hover .down__menu-lang {
+    display: block;
+}
+
+.header__language a {
+    color: #053412;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 8px;
+}
+
+.header__language a:hover {
+    color: #45965B;
+}
+
+.icon-menu {
+    display: none;
+    margin-left: 20px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    width: 30px;
+    height: 20px;
+}
+
+.icon-menu span {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translate(0px, -50%);
+    background-color: #053412;
+}
+
+.icon-menu::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #45965B;
+}
+
+.icon-menu::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #45965B;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-nav {
+    flex: 1 1 auto;
+}
+
+.menu {
+    white-space: nowrap;
+}
+
+.arrow-down {
+    background-image: url('../img/drop-down-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    /* padding-left: 18px; */
+}
+
+.drop__down-menu {
+    position: relative;
+}
+
+.down__menu {
+    display: none;
+    position: absolute;
+    z-index: 20;
+}
+
+.drop__down-menu:hover .down__menu {
+    display: flex;
+    flex-direction: column;
+    color: #053412;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header__line {
+    width: 100%;
+    height: 4px;
+    background: #EBEBEB;
+    margin-top: 20px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #053412;
+    margin-top: 36px;
+}
+
+.hero__deskribe {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.number__applications {
+    padding: 56px;
+    margin-top: 60px;
+    background: #DEDEDE;
+    border-radius: 10px;
+}
+
+.numbers {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+    color: #933535;
+}
+
+.deskribe {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin-left: 68px;
+}
+
+.hero__card {
+    margin: 18px 0px 44px;
+    color: #000000;
+}
+
+.hero__card-info {
+    background: #EDEDED;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 128px;
+    padding: 20px;
+}
+
+.hero__card-info:not(:last-child) {
+    margin-right: 24px;
+}
+
+.info-deskribe {
+    margin-left: 22px;
+}
+
+.deskribe-name {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.describe-number {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.register-deskribe {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.register-button {
+    margin-left: 22px;
+}
+
+.reg-btn {
+    border: 1px solid #767676;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #474747;
+}
+
+.reg-btn:hover {
+    color: #474747;
+}
+
+.help__received {
+    padding: 56px;
+    margin: 32px 0px 44px;
+    background: #E3F4E8;
+    border-radius: 10px;
+}
+
+.help-numbers {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+    color: #053412;
+}
+
+.signup__form {
+    background-color: #C6DBCC;
+    height: 100%;
+    padding: 90px 0px;
+}
+
+.sign__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sign__text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #000000;
+    margin-top: 56px;
+}
+
+.signup__choose {
+    margin-top: 36px;
+}
+
+.sing__items {
+    padding: 10px 20px 10px 0px;
+}
+
+.prostethics-img {
+    padding-top: 10px;
+}
+
+.prosthetics-text {
+    padding-top: 10px;
+}
+
+.personal-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-data input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    background: #F5F5F5;
+    border: 2px solid #64A476;
+    border-radius: 3px;
+}
+
+.btn {
+    width: 100%;
+    background-color: #4C9F62;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: #16682C;
+}
+
+.btn a {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.after__registering {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.textarea {
+    color: #000000;
+    flex: auto;
+    border: 2px solid #64A476;
+}
+
+footer {
+    padding: 50px;
+    background-color: #053412;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #45965B;
+    padding-left: 10px;
+}
+
+.footer__menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer__link {
+    color: #C0ECCC;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.footer__link:hover {
+    color: #C0ECCC;
+}
+
+
+.footer__mail a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #C0ECCC;
+}
+
+.dark {
+    padding: 14px 0px;
+    background-color: #01270C;
+}
+
+.footer__botoom-text {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #C2C2C2;
+}
+
+.schedule {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #C1C1C1;
+}
+
+.hotline,
+.socialmedia {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}

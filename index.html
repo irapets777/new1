@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap"
+        rel="stylesheet"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet">
+    <title>Lazar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex align-items-center">
+                <div class="col-6 mt-4 mb-3">
+                    <div class="logo">
+                        <a href="#" class="d-flex align-items-center">
+                            <img src="img/header-logo.svg" alt="logo">
+                            <p class="logo-text">до перемоги разом!</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 mt-4 mb-4">
+                    <nav class="menu-nav d-flex">
+                        <ul id="burger-menu" class="menu-ul d-flex gap-3">
+                            <li>
+                                <a href="#">про нас</a>
+                            </li>
+                            <li class="drop__down-menu">
+                                <a href="#" class="arrow-down">проєкти</a>
+                                <div class="down__menu">
+                                    <a href="#">проект 1</a>
+                                    <a href="#">проект 2</a>
+                                    <a href="#">проект 3</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">потреби</a>
+                            </li>
+                            <li>
+                                <a href="#">допомогти</a>
+                            </li>
+                        </ul>
+                        <div id="burger" class="icon-menu">
+                            <span></span>
+                        </div>
+                        <div class="header__language">
+                            <a href="#" class="arrow-down">
+                                UA
+                            </a>
+                            <div class="down__menu-lang">
+                                <a href="#">ENG</a>
+                                <a href="#">PL</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex align-items-center">
+                <div class="col-6 mt-4 mb-4">
+                    <div class="header__logo">
+                        <a href="#" class="d-flex align-items-center">
+                            <img src="img/header-logo.svg" alt="logo">
+                            <p class="logo-text">до перемоги разом!</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 mt-4 mb-4">
+                    <nav class="nav-menu d-flex">
+                        <ul id="burger-menu" class=" ul-menu d-flex gap-3">
+                            <li>
+                                <a href="#">про нас</a>
+                             </li>
+                             <li class="drop__down-menu">
+                                <a href="#" class="arrow-down">проєкти</a>
+                                <div class="down__menu">
+                                   <a href="#">проект 1</a>
+                                   <a href="#">проект 2</a>
+                                   <a href="#">проект 3</a>
+                                </div>
+                             </li>
+                             <li>
+                                <a href="#">потреби</a>
+                             </li>
+                             <li>
+                                <a href="#">допомогти</a>
+                             </li>
+                        </ul>
+                        <div id="burger" class="icon-menu">
+                            <span></span>
+                         </div>
+                         <div class="header__language">
+                            <a href="#" class="arrow-down">
+                               UA
+                            </a>
+                            <div class="down__menu-lang">
+                               <a href="#">ENG</a>
+                               <a href="#">PL</a>
+                            </div>
+                         </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <header>
+        <div class="container">
+            <div class="row">
+                <div class="co-12 d-flex align-items-center">
+                    <div class="col-6 col-xl-5">
+                        <div class="header__logo d-flex align-items-center">
+                            <a class="header-img" href="#">
+                                <img src="img/header-logo.svg" alt="img-logo">
+                            </a>
+                            <div class="header-text">
+                                до перемоги разом!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-7 d-flex align-items-center justify-content-end">
+                        <div class="header__menu d-flex align-items-center justify-content-space-between">
+                            <nav class="menu-nav">
+                                <ul id="burger-menu" class="header__menu-items d-flex align-items-center gap-3">
+                                    <li>
+                                        <a class="header__link" href="#">про нас</a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">проєкти</a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">потреби</a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">допомогти</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            
+                            <div class="reveres">
+                                <div id="burger" class="burger-menu">
+                                    <span></span>
+                                </div>
+                                <div class="header__lang">
+                                    <a href="#">
+                                        UA
+                                        <img src="img/choose-lg.svg" alt="img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="header__line"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="hero__title d-flex align-items-center justify-content-center">
+                        Протезування
+                    </div>
+                    <div class="hero__deskribe d-flex align-items-center justify-content-center">
+                        БФ «ЛАЗАР» розпочинає проєкт “Надія для наших героїв”, який покликаний допомоги українцям, які
+                        втратили кінцівки рук або ніг від військових дій на території України
+                    </div>
+                    <div class="number__applications d-flex align-items-center justify-content-center">
+                        <div class="numbers">
+                            169
+                        </div>
+                        <div class="deskribe d-flex align-items-center">
+                            постраждалих подали заявки <br>
+                            на протезування
+                        </div>
+                    </div>
+                    <div class="hero__card d-flex">
+                        <div class="hero__card-info d-flex">
+                            <img src="img/hero-card1.svg" alt="img">
+                            <div class="info-deskribe">
+                                <p>Верхні кінцівки</p>
+                                <p class="describe-number">58</p>
+                            </div>
+                        </div>
+                        <div class="hero__card-info d-flex">
+                            <img src="img/hero-card2.svg" alt="img">
+                            <div class="info-deskribe">
+                                <p class="deskribe-name">Нижні кінцівки</p>
+                                <p class="describe-number">87</p>
+                            </div>
+                        </div>
+                        <div class="hero__card-info d-flex">
+                            <img src="img/hero-card3.svg" alt="img">
+                            <div class="info-deskribe">
+                                <p class="deskribe-name">Обличчя</p>
+                                <p class="describe-number">2</p>
+                            </div>
+                        </div>
+                        <div class="hero__card-info d-flex">
+                            <img src="img/hero-card4.svg" alt="img">
+                            <div class="info-deskribe">
+                                <p class="deskribe-name">Інше</p>
+                                <p class="describe-number">22</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="register__load-app d-flex align-items-center">
+                        <div class="register-deskribe">
+                            Реєстр заявок на протезування
+                        </div>
+                        <div class="register-button">
+                            <a class="reg-btn" href="#">Завантажити</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="help__received d-flex align-items-center justify-content-center">
+                        <div class="help-numbers">
+                            6
+                        </div>
+                        <div class="deskribe d-flex align-items-center">
+                            постраждалих отримали <br>
+                            допомогу
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="signup__form">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="sign__upfor-prosthetics">
+                        <div class="sign__title d-flex justify-content-center">
+                            Зареєструватись на протезування
+                        </div>
+                        <div class="sign__text">
+                            Зареєструватись на протезування *
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="signup__choose">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-wrap">
+                        <div class="sing__items col-sm-6 col-md-3 col-lg-3">
+                            <div class="prostethics-img">
+                                <img src="img/fingers.svg.svg" alt="img">
+                            </div>
+                            <div class="prosthetics-text">
+                                Пальці
+                            </div>
+                            <div class="prostetics-choose">
+                                <input type="checkbox" id="fingers" name="fingers" value="fingers">
+                                <label for="fingers"> </label><br>
+                            </div>
+                        </div>
+                        <div class="sing__items col-sm-6 col-md-3 col-lg-3">
+                            <div class="prostethics-img">
+                                <img src="img/heand.svg.svg" alt="img">
+                            </div>
+                            <div class="prosthetics-text">
+                                Кисть
+                            </div>
+                            <div class="prostetics-choose">
+                                <input type="checkbox" id="heand" name="heand" value="heand">
+                                <label for="heand"> </label><br>
+                            </div>
+                        </div>
+                        <div class="sing__items col-sm-6 col-md-3 col-lg-3">
+                            <div class="prostethics-img">
+                                <img src="img/upheand.svg.svg" alt="img">
+                            </div>
+                            <div class="prosthetics-text">
+                                Передпліччя
+                            </div>
+                            <div class="prostetics-choose">
+                                <input type="checkbox" id="upheand" name="upheand" value="upheand">
+                                <label for="upheand"> </label><br>
+                            </div>
+                        </div>
+                        <div class="sing__items col-sm-6 col-md-3 col-lg-3">
+                            <div class="prostethics-img">
+                                <img src="img/allheand.svg.svg" alt="img">
+                            </div>
+                            <div class="prosthetics-text">
+                                Плече
+                            </div>
+                            <div class="prostetics-choose">
+                                <input type="checkbox" id="allheand" name="allheand" value="allheand">
+                                <label for="allheand"> </label><br>
+                            </div>
+                        </div>
+                        <div class="sing__items col-sm-6 col-md-3 col-lg-3">
+                            <div class="prostethics-img">
+                                <img src="img/foot.svg.svg" alt="img">
+                            </div>
+                            <div class="prosthetics-text">
+                                Стопа
+                            </div>
+                            <div class="prostetics-choose">
+                                <input type="checkbox" id="foot" name="foot" value="foot">
+                                <label for="foot"> </label><br>
+                            </div>
+                        </div>
+                        <div class="sing__items col-sm-6 col-md-3 col-lg-3">
+                            <div class="prostethics-img">
+                                <img src="img/upfoot.svg.svg" alt="img">
+                            </div>
+                            <div class="prosthetics-text">
+                                Гомілка
+                            </div>
+                            <div class="prostetics-choose">
+                                <input type="checkbox" id="upfoot" name="upfoot" value="upfoot">
+                                <label for="upfoot"> </label><br>
+                            </div>
+                        </div>
+                        <div class="sing__items col-sm-6 col-md-3 col-lg-3">
+                            <div class="prostethics-img">
+                                <img src="img/allfoot.svg.svg" alt="img">
+                            </div>
+                            <div class="prosthetics-text">
+                                Стегно
+                            </div>
+                            <div class="prostetics-choose">
+                                <input type="checkbox" id="allfoot" name="allfoot" value="allfoot">
+                                <label for="allfoot"> </label><br>
+                            </div>
+                        </div>
+                        <div class="sing__items col-sm-6 col-md-3 col-lg-3">
+                            <div class="prostethics-img">
+                                <img src="img/face.svg.svg" alt="img">
+                            </div>
+                            <div class="prosthetics-text">
+                                Обличчя
+                            </div>
+                            <div class="prostetics-choose">
+                                <input type="checkbox" id="face" name="face" value="face">
+                                <label for="face"> </label><br>
+                            </div>
+                        </div>
+                        <div class="sing__items col-sm-6 col-md-3 col-lg-3">
+                            <div class="prostethics-img">
+                                <img src="img/all_body.svg.svg" alt="img">
+                            </div>
+                            <div class="prosthetics-text">
+                                Шкіра
+                            </div>
+                            <div class="prostetics-choose">
+                                <input type="checkbox" id="all_body" name="all_body" value="all_body">
+                                <label for="all_body"> </label><br>
+                            </div>
+                        </div>
+                        <div class="sing__items col-sm-6 col-md-3 col-lg-3">
+                            <div class="prostethics-img">
+                                <img src="img/else_part.svg.svg" alt="img">
+                            </div>
+                            <div class="prosthetics-text">
+                                Інше
+                            </div>
+                            <div class="prostetics-choose">
+                                <input type="checkbox" id="else_part" name="else_part" value="else_part">
+                                <label for="else_part"> </label><br>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form onsubmit="event.preventDefault()" class="personal-data" post="/create_new_post">
+                        <legend></legend>
+                        <input placeholder="Прізвище, ім’я, по-батькові *" type="text">
+                        <input placeholder="E-mail *" type="text">
+                        <input placeholder="Телефон *" type="number" required>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="sign__text">
+                        Ви*
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form>
+                        <input class="mb-5" type="radio" id="you" name="you" value="you">
+                        <label for="you">потерпілий/ла</label>
+                        <input class="mb-5" type="radio" id="you" name="you" value="you">
+                        <label for="you">батьки, опікуни чи рідні особи</label><br>
+                        <input class="mb-5" type="radio" id="sex" name="sex" value="sex">
+                        <label for="sex">жіноча</label>
+                        <input class="mb-5" type="radio" id="sex" name="sex" value="sex">
+                        <label for="sex">чоловіча</label><br>
+                        <input class="mb-5" type="radio" id="age" name="age" value="age">
+                        <label for="age">2-11 років</label>
+                        <input class="mb-5" type="radio" id="age" name="age" value="age">
+                        <label for="age">12-17 років</label>
+                        <input class="mb-5" type="radio" id="age" name="age" value="age">
+                        <label for="age">18 і більше</label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center mb-4">
+                    <textarea class="textarea" name="about-you" id="aboutyou" cols="100%" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <button class="btn mb-3" type="submit">
+                        <a href="#">Зареєструватись</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="after__registering">
+                        <p>Дякуємо за реєстрацію!</p>
+                        <p>Ми зв’яжемось з Вами протягом 2-х днів Просимо підготувати документи, які підтверджують особу
+                            потерпілого, медичні заключення (за можливості).
+                        </p>
+                        <p>Слава Україні!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex">
+                    <div class="col-6 d-flex align-items-center justify-content-space-between">
+                        <div class="footer__logo d-flex align-items-center">
+                            <img src="img/logo-footer.svg" alt="img">
+                        </div>
+                        <div class="footer__text">
+                            до перемоги разом!
+                        </div>
+                    </div>
+                    <div class="ul-footer col-6 d-flex">
+                        <ul class="footer__menu-items d-flex align-items-center">
+                            <li>
+                                <a class="footer__link" href="#">про нас</a>
+                            </li>
+                            <li>
+                                <a class="footer__link" href="#">потреби</a>
+                            </li>
+                            <li>
+                                <a class="footer__link" href="#">допомогти</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6 mt-5">
+                            <div class="footer__mail">
+                                <a href="office@lazarhelp.in.ua">office@lazarhelp.in.ua</a>
+                            </div>
+                        </div>
+                        <div class="col-6 mt-4">
+                            <div class="schedule">
+                                Пн-Нд 9:00–21:00
+                            </div>
+                            <div class="hotline">
+                                Гаряча лінія: +38 044 390 67 71
+                            </div>
+                            <div class="socialmedia">
+                                WhatsApp, Telegram: +380 (63) 897 37 33
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer__botoom-text">
+                        © 2022, БО «Благодійний фонд «Лазар»
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
